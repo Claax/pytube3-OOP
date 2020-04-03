@@ -1,0 +1,2 @@
+# pytube3-OOP
+I created a class for using the pytube3 library (https://pypi.org/project/pytube3/) to download a single file and files from a playlist ( for the playlist I had  to modify the code as the one the docs wasn't working on my pc), I also created a method to choose the file with better resolution before downloading it (it seems that only the option: progressive=True has the audio already in it). A huge thanks to the creators of pytube3 library: Nick Ficano, Harold Martin
