@@ -74,7 +74,7 @@ class Youtube_downloader:
 
             try:
 
-                self.better_quality_w_audio(youtube_url)
+                self.better_quality_w_audio(vid)
 
                 YouTube(vid).streams[self.idx].download(self.directory)
 
